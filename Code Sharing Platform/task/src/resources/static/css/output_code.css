@@ -1,0 +1,9 @@
+span{
+    color: green;
+}
+div pre{
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid gray;
+    background: lightgrey;
+}

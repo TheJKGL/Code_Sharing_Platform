@@ -1,0 +1,17 @@
+body{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+textarea{
+    width: 400px;
+    height: 100px
+}
+button{
+    display:block;
+    position: relative;
+    margin:20px auto;
+    padding: 10px;
+
+}

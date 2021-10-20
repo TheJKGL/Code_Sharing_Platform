@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <!--<link href="../static/css/Styles.css" rel="stylesheet">-->
+    <link th:href="@{/css/input_code.css}" rel="stylesheet"/>
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div id="work_space">
+        <textarea id="code_snippet"></textarea>
+        <label for="time_restriction">Set time restriction:</label>
+        <input id="time_restriction" type="text"/><br>
+        <label for="views_restriction">Set views restriction:</label>
+        <input id="views_restriction" type="text"/>
+        <button id="send_snippet" type="submit" onclick="send()">Submit</button>
+    </div>
+    <script type="text/javascript" th:src="@{/js/fun_send.js}"></script>
+</body>
+</html>
